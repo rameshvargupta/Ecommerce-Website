@@ -1,0 +1,242 @@
+.App {
+  text-align: center;
+}
+
+body {
+  scroll-behavior: smooth;
+  overflow: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overflow-x: hidden;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+#main {
+  width: 48%;
+  margin: 5px;
+
+}
+
+#son {
+  display: flex;
+  width: 100%;
+  height: 450px;
+  overflow: hidden;
+}
+
+#zoomed:hover {
+  border: 2px solid green;
+  transform: scale(1.01);
+  transition: .7s;
+}
+
+.reg {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  border: 2px solid blue;
+  padding: 20px;
+  width: 300px;
+  margin: 30px auto;
+  box-shadow: 0 0 10px;
+}
+
+.reg input {
+  box-shadow: 0 0 10px;
+}
+
+
+.reg h1 {
+  color: red;
+
+  margin-bottom: 20px;
+}
+.hero h5{
+  margin: 250px auto;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.box {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  align-items: center;
+  margin-left: 20px;
+}
+
+label {
+  color: blue;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.spinning {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.spinning img {
+
+  height: 120px;
+}
+
+.container {
+  width: 100%;
+}
+
+.card {
+
+  width: 50%;
+}
+
+
+.reg button {
+  background-color: rgb(166, 166, 236);
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+}
+ 
+
+.reg textarea {
+ border-radius: 15px;
+ box-shadow: 0 0 10px;
+
+}
+
+.reg button:hover {
+  background-color: aqua;
+  transition: .5s;
+
+}
+
+.contact {
+  background-color: rgb(212, 231, 248);
+  text-align: center;
+  padding: 10px;
+  margin-top: 216px;
+}
+
+h5 span {
+  font-weight: bold;
+}
+
+.center2{
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+
+#reg1 input{
+margin: 1px auto;
+
+}
+@media only screen and (min-width: 770px) {
+  .settle:hover{
+    transform: scale(1.05);
+    transition: .6s;
+    border: 1px solid green;
+     }
+    }
+    .settle{
+      width: 265px;
+      margin-bottom: 15px;
+        }
+
+
+@media only screen and (max-width: 760px) {
+  #center3 {
+    margin-left:25%;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+ 
+    
+}
+
+
+ 
+@media only screen and (max-width: 555px) {
+  #center3 {
+    margin-left:25%;
+  }
+    
+  .settle{
+    width: 230px;
+  
+  }
+}
+@media only screen and (max-width: 460px) {
+  #center3 {
+    margin-left:20%;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+}
+@media only screen and (max-width: 400px) {
+  #center3 {
+    margin-left:18%;
+  }
+  .settle{
+    width: 230px;
+  
+  }
+}
+@media only screen and (max-width: 350px) {
+  #center3 {
+    margin-left:10%;
+
+  }
+  .settle{
+    width: 230px;
+  
+  }
+ 
+}
